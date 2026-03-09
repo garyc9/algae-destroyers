@@ -80,7 +80,7 @@ main {
 }
 
 .brand-logo {
-  width: 6rem;
+  width: 8rem;
   height: auto;
   border-radius: 8px;
 }
@@ -101,11 +101,17 @@ main {
 }
 
 .brand-name {
-  display: none;
+  margin: 0;
+  font-family: "Space Grotesk", "Outfit", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
 .brand-sub {
-  display: none;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 }
 
