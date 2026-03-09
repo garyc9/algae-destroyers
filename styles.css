@@ -62,7 +62,7 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 .brand {
@@ -80,7 +80,7 @@ main {
 }
 
 .brand-logo {
-  width: 3rem;
+  width: 6rem;
   height: auto;
   border-radius: 8px;
 }
@@ -101,17 +101,12 @@ main {
 }
 
 .brand-name {
-  margin: 0;
-  font-family: "Space Grotesk", "Outfit", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
+  display: none;
 }
 
 .brand-sub {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.82rem;
+  display: none;
+}
 }
 
 .site-nav {
